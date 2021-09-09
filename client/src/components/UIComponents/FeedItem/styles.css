@@ -1,0 +1,9 @@
+.card {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.creation-info {
+    font-size: 11px !important;
+}
