@@ -39,13 +39,11 @@ const NewsItem = ({ newsItem, onRemoveHandler, onArchiveHandler }) => {
   const renderActionContainer = () => (
     <div className="news-item-action-container">
       <div className="news-item-action-date-container news-item-text-s">
-        <span>
         {
           (newsItem.archiveDate !== null) ?
             <span>Archive date: {formatDateLocale(newsItem.archiveDate)}</span> :
             ''
         }
-        </span>
       </div>
       <div className="news-item-action-buttons-container">
         {renderButton()}
