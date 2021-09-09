@@ -3,7 +3,7 @@ export const POLLINGINTERVAL = 10000;
 
 // Map route to each Material-UI tab. 
 export const TABROUTERMAPPING = [
-  { name: 'Feed', route: '/' },
+  { name: 'New', route: '/' },
   { name: 'Archived', route: '/archived' }
 ];
 
